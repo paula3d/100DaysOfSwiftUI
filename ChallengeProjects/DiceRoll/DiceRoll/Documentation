@@ -1,0 +1,28 @@
+PREMISE
+The app lets the user roll the dice to receive a random number from the dice's range.
+
+--------------------------------------------------------------
+
+FUNCTIONALITY
+Settings View
+The user can choose how many dices, and what kind of dices they want to use.
+Dice kinds: 4-sided, 6-sided, 8-sided, 10-sided, 12-sided, 20-sided, 100-sided
+The number of dices in use was limited to 10; however, the restriction can be changed.
+
+Roll View
+The user can use the button to trigger the dice rolls. The user can roll multiple times. As the user uses "Roll the dice" button, haptic feedback is triggered.
+
+History View
+The user can see the past rolls. The history is limited to 100 entries. The user can see details of the chosen rolls. The details include information about which dices were used and what values they provided.
+
+--------------------------------------------------------------
+
+The project utilises:
+* Usage of EnviromentObject
+* Usage of Timer
+* Saving data using FileManager
+* Usage of haptic feedback using UINotificationFeedbackGenerator
+* Usage of custom ViewModifier
+* Usage of TabView
+* Implementation of Hashable
+* Implementation of Codable

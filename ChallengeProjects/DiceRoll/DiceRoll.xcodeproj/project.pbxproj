@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40490DBF29A9380600225CFA /* DiceRollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DBE29A9380600225CFA /* DiceRollApp.swift */; };
+		40490DC129A9380600225CFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DC029A9380600225CFA /* ContentView.swift */; };
+		40490DC329A9380800225CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40490DC229A9380800225CFA /* Assets.xcassets */; };
+		40490DC629A9380800225CFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40490DC529A9380800225CFA /* Preview Assets.xcassets */; };
+		40490DCD29A9390B00225CFA /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DCC29A9390B00225CFA /* Dice.swift */; };
+		40490DCF29A93C3600225CFA /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DCE29A93C3600225CFA /* FileManager-DocumentsDirectory.swift */; };
+		40490DD129A9488E00225CFA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DD029A9488E00225CFA /* HistoryView.swift */; };
+		40490DD329A948A100225CFA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DD229A948A100225CFA /* SettingsView.swift */; };
+		40490DD529A95CEB00225CFA /* RollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DD429A95CEB00225CFA /* RollView.swift */; };
+		40490DD929A95FBE00225CFA /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DD829A95FBE00225CFA /* Roll.swift */; };
+		40490DF729AA44D700225CFA /* AddDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40490DF629AA44D700225CFA /* AddDiceView.swift */; };
+		4072147D29AAA44E00C0701E /* RollDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072147C29AAA44E00C0701E /* RollDetailView.swift */; };
+		4072147F29ABA11900C0701E /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 4072147E29ABA11900C0701E /* Documentation */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40490DBB29A9380600225CFA /* DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40490DBE29A9380600225CFA /* DiceRollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollApp.swift; sourceTree = "<group>"; };
+		40490DC029A9380600225CFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40490DC229A9380800225CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40490DC529A9380800225CFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40490DCC29A9390B00225CFA /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		40490DCE29A93C3600225CFA /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		40490DD029A9488E00225CFA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		40490DD229A948A100225CFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		40490DD429A95CEB00225CFA /* RollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollView.swift; sourceTree = "<group>"; };
+		40490DD829A95FBE00225CFA /* Roll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		40490DF629AA44D700225CFA /* AddDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiceView.swift; sourceTree = "<group>"; };
+		4072147C29AAA44E00C0701E /* RollDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDetailView.swift; sourceTree = "<group>"; };
+		4072147E29ABA11900C0701E /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = text; path = Documentation; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40490DB829A9380600225CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40490DB229A9380600225CFA = {
+			isa = PBXGroup;
+			children = (
+				40490DBD29A9380600225CFA /* DiceRoll */,
+				40490DBC29A9380600225CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40490DBC29A9380600225CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40490DBB29A9380600225CFA /* DiceRoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40490DBD29A9380600225CFA /* DiceRoll */ = {
+			isa = PBXGroup;
+			children = (
+				40490DBE29A9380600225CFA /* DiceRollApp.swift */,
+				4072148129ABAA6900C0701E /* Data */,
+				4072148029ABAA5800C0701E /* Views */,
+				4072147E29ABA11900C0701E /* Documentation */,
+				40490DC229A9380800225CFA /* Assets.xcassets */,
+				40490DC429A9380800225CFA /* Preview Content */,
+			);
+			path = DiceRoll;
+			sourceTree = "<group>";
+		};
+		40490DC429A9380800225CFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40490DC529A9380800225CFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4072148029ABAA5800C0701E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40490DC029A9380600225CFA /* ContentView.swift */,
+				40490DD429A95CEB00225CFA /* RollView.swift */,
+				40490DD029A9488E00225CFA /* HistoryView.swift */,
+				4072147C29AAA44E00C0701E /* RollDetailView.swift */,
+				40490DD229A948A100225CFA /* SettingsView.swift */,
+				40490DF629AA44D700225CFA /* AddDiceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4072148129ABAA6900C0701E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				40490DCC29A9390B00225CFA /* Dice.swift */,
+				40490DD829A95FBE00225CFA /* Roll.swift */,
+				40490DCE29A93C3600225CFA /* FileManager-DocumentsDirectory.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40490DBA29A9380600225CFA /* DiceRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40490DC929A9380800225CFA /* Build configuration list for PBXNativeTarget "DiceRoll" */;
+			buildPhases = (
+				40490DB729A9380600225CFA /* Sources */,
+				40490DB829A9380600225CFA /* Frameworks */,
+				40490DB929A9380600225CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceRoll;
+			productName = DiceRoll;
+			productReference = 40490DBB29A9380600225CFA /* DiceRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40490DB329A9380600225CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					40490DBA29A9380600225CFA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 40490DB629A9380600225CFA /* Build configuration list for PBXProject "DiceRoll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40490DB229A9380600225CFA;
+			productRefGroup = 40490DBC29A9380600225CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40490DBA29A9380600225CFA /* DiceRoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40490DB929A9380600225CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40490DC629A9380800225CFA /* Preview Assets.xcassets in Resources */,
+				4072147F29ABA11900C0701E /* Documentation in Resources */,
+				40490DC329A9380800225CFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40490DB729A9380600225CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40490DC129A9380600225CFA /* ContentView.swift in Sources */,
+				40490DD529A95CEB00225CFA /* RollView.swift in Sources */,
+				40490DD929A95FBE00225CFA /* Roll.swift in Sources */,
+				40490DCD29A9390B00225CFA /* Dice.swift in Sources */,
+				40490DD129A9488E00225CFA /* HistoryView.swift in Sources */,
+				40490DF729AA44D700225CFA /* AddDiceView.swift in Sources */,
+				40490DCF29A93C3600225CFA /* FileManager-DocumentsDirectory.swift in Sources */,
+				40490DBF29A9380600225CFA /* DiceRollApp.swift in Sources */,
+				4072147D29AAA44E00C0701E /* RollDetailView.swift in Sources */,
+				40490DD329A948A100225CFA /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40490DC729A9380800225CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40490DC829A9380800225CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40490DCA29A9380800225CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceRoll/Preview Content\"";
+				DEVELOPMENT_TEAM = G3GNU2HG38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.dabrowska.paulina.DiceRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40490DCB29A9380800225CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceRoll/Preview Content\"";
+				DEVELOPMENT_TEAM = G3GNU2HG38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.dabrowska.paulina.DiceRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40490DB629A9380600225CFA /* Build configuration list for PBXProject "DiceRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40490DC729A9380800225CFA /* Debug */,
+				40490DC829A9380800225CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40490DC929A9380800225CFA /* Build configuration list for PBXNativeTarget "DiceRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40490DCA29A9380800225CFA /* Debug */,
+				40490DCB29A9380800225CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40490DB329A9380600225CFA /* Project object */;
+}
