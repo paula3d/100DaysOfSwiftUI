@@ -1,0 +1,6 @@
+
+to improve optimasation, check if there are changes to be saved instead of just saving
+
+if moc.hasChanges {
+    try? moc.save()
+}
